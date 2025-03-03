@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    background-color: antiquewhite;
+}
+
+.cabecalho {
+    font-size: large;
+    background-color: white;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    display: flex;
+    box-shadow: 2px 2px 5px;
+    height: 60px;
+}
+
+.cabecalho ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho li {
+    padding: 18px;
+    float: left;
+}
+
+.imag {
+    position: relative;
+    left: 40px;
+    top: 30px;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.imag img {
+    display: block;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+.cabecalho a {
+    color: black;
+    text-decoration: none;
+}
+
+.cabecalho a:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+.cabecalho a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.cabecalho h1 {
+    font-size: larger;
+    color: white;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.info {
+    font-size: large;
+    background-color: white;
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 1px 1px 5px;
+}
+
+.info h2 {
+    font-size: 40px;
+}
+
+.info h3 {
+    font-size: 25px;
+}
+
+.tabela {
+    font-size: large;
+    background-color: white;
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 1px 1px 5px;
+    align-items: center;
+}
+
+.tabelabib {
+    font-size: large;
+    background-color: white;
+    display: block;
+    margin: auto;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 1px 1px 5px;
+    align-items: center;
+}
+
+.tabelabib img {
+    width: 70px;
+    height: 100px;
+}
+
+table {
+    width: 95%;
+    height: auto;
+	margin: auto;
+	border: 1px solid black;
+	color: black;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px var(--color-dark1);
+    justify-content: center;
+    border-collapse: collapse;
+}
+
+tbody tr {
+    justify-content: left;
+}
+
+tr {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: antiquewhite;
+	border: 1px solid black;
+    justify-content: center;
+}
+
+th {
+    display: block;
+    width: 70%;
+	height: 30px;
+    border-right: 1px solid black;
+}
+
+.valor {
+    width: 35%;
+}
+
+td {
+    padding: 10px;
+    width: 100%;
+	height: auto;
+    border-right: 1px solid black;
+}
+
+.faq {
+    font-size: large;
+    background-color: white;
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 1px 1px 5px;
+}
+
+p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+input[type=text] {
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 70%;
+}
+
+input[type=submit] {
+    display: absoltue;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    width: 100px;
+    padding: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: gainsboro;
+    transition: 0.5s;
+}
+
+footer {
+    /*position: fixed;*/
+    /*display: flex;*/
+    width: 100%;
+    margin-top: 10%;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
